@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 12
+names: ['cake', 'chicken curry', 'croissant', 'french fries', 'fried chicken', 'fried rice', 'hamburger', 'noodles', 'pasta', 'pizza', 'roast chicken', 'waffle']
+
+#roboflow:
+#  workspace: ahmad-nabil
+#  project: food-detection-for-yolo-training
+#  version: 2
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/ahmad-nabil/food-detection-for-yolo-training/dataset/2
